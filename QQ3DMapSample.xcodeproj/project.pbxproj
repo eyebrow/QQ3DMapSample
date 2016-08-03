@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7583F6E61D51DD4B0079EB5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7583F6E51D51DD4B0079EB5E /* main.m */; };
+		7583F6E91D51DD4B0079EB5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7583F6E81D51DD4B0079EB5E /* AppDelegate.m */; };
+		7583F6EC1D51DD4B0079EB5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7583F6EB1D51DD4B0079EB5E /* ViewController.m */; };
+		7583F6EF1D51DD4B0079EB5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7583F6ED1D51DD4B0079EB5E /* Main.storyboard */; };
+		7583F6F11D51DD4B0079EB5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7583F6F01D51DD4B0079EB5E /* Assets.xcassets */; };
+		7583F6F41D51DD4B0079EB5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7583F6F21D51DD4B0079EB5E /* LaunchScreen.storyboard */; };
+		7583F6FF1D51DD4B0079EB5E /* QQ3DMapSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7583F6FE1D51DD4B0079EB5E /* QQ3DMapSampleTests.m */; };
+		7583F70A1D51DD4B0079EB5E /* QQ3DMapSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7583F7091D51DD4B0079EB5E /* QQ3DMapSampleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7583F6FB1D51DD4B0079EB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7583F6D91D51DD4B0079EB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7583F6E01D51DD4B0079EB5E;
+			remoteInfo = QQ3DMapSample;
+		};
+		7583F7061D51DD4B0079EB5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7583F6D91D51DD4B0079EB5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7583F6E01D51DD4B0079EB5E;
+			remoteInfo = QQ3DMapSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7583F6E11D51DD4B0079EB5E /* QQ3DMapSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQ3DMapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7583F6E51D51DD4B0079EB5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7583F6E71D51DD4B0079EB5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7583F6E81D51DD4B0079EB5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7583F6EA1D51DD4B0079EB5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7583F6EB1D51DD4B0079EB5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7583F6EE1D51DD4B0079EB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7583F6F01D51DD4B0079EB5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7583F6F31D51DD4B0079EB5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7583F6F51D51DD4B0079EB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7583F6FA1D51DD4B0079EB5E /* QQ3DMapSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQ3DMapSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7583F6FE1D51DD4B0079EB5E /* QQ3DMapSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ3DMapSampleTests.m; sourceTree = "<group>"; };
+		7583F7001D51DD4B0079EB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7583F7051D51DD4B0079EB5E /* QQ3DMapSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQ3DMapSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7583F7091D51DD4B0079EB5E /* QQ3DMapSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQ3DMapSampleUITests.m; sourceTree = "<group>"; };
+		7583F70B1D51DD4B0079EB5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7583F6DE1D51DD4B0079EB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F6F71D51DD4B0079EB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F7021D51DD4B0079EB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7583F6D81D51DD4B0079EB5E = {
+			isa = PBXGroup;
+			children = (
+				7583F6E31D51DD4B0079EB5E /* QQ3DMapSample */,
+				7583F6FD1D51DD4B0079EB5E /* QQ3DMapSampleTests */,
+				7583F7081D51DD4B0079EB5E /* QQ3DMapSampleUITests */,
+				7583F6E21D51DD4B0079EB5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7583F6E21D51DD4B0079EB5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7583F6E11D51DD4B0079EB5E /* QQ3DMapSample.app */,
+				7583F6FA1D51DD4B0079EB5E /* QQ3DMapSampleTests.xctest */,
+				7583F7051D51DD4B0079EB5E /* QQ3DMapSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7583F6E31D51DD4B0079EB5E /* QQ3DMapSample */ = {
+			isa = PBXGroup;
+			children = (
+				7583F6E71D51DD4B0079EB5E /* AppDelegate.h */,
+				7583F6E81D51DD4B0079EB5E /* AppDelegate.m */,
+				7583F6EA1D51DD4B0079EB5E /* ViewController.h */,
+				7583F6EB1D51DD4B0079EB5E /* ViewController.m */,
+				7583F6ED1D51DD4B0079EB5E /* Main.storyboard */,
+				7583F6F01D51DD4B0079EB5E /* Assets.xcassets */,
+				7583F6F21D51DD4B0079EB5E /* LaunchScreen.storyboard */,
+				7583F6F51D51DD4B0079EB5E /* Info.plist */,
+				7583F6E41D51DD4B0079EB5E /* Supporting Files */,
+			);
+			path = QQ3DMapSample;
+			sourceTree = "<group>";
+		};
+		7583F6E41D51DD4B0079EB5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7583F6E51D51DD4B0079EB5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7583F6FD1D51DD4B0079EB5E /* QQ3DMapSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7583F6FE1D51DD4B0079EB5E /* QQ3DMapSampleTests.m */,
+				7583F7001D51DD4B0079EB5E /* Info.plist */,
+			);
+			path = QQ3DMapSampleTests;
+			sourceTree = "<group>";
+		};
+		7583F7081D51DD4B0079EB5E /* QQ3DMapSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7583F7091D51DD4B0079EB5E /* QQ3DMapSampleUITests.m */,
+				7583F70B1D51DD4B0079EB5E /* Info.plist */,
+			);
+			path = QQ3DMapSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7583F6E01D51DD4B0079EB5E /* QQ3DMapSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7583F70E1D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSample" */;
+			buildPhases = (
+				7583F6DD1D51DD4B0079EB5E /* Sources */,
+				7583F6DE1D51DD4B0079EB5E /* Frameworks */,
+				7583F6DF1D51DD4B0079EB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQ3DMapSample;
+			productName = QQ3DMapSample;
+			productReference = 7583F6E11D51DD4B0079EB5E /* QQ3DMapSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7583F6F91D51DD4B0079EB5E /* QQ3DMapSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7583F7111D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSampleTests" */;
+			buildPhases = (
+				7583F6F61D51DD4B0079EB5E /* Sources */,
+				7583F6F71D51DD4B0079EB5E /* Frameworks */,
+				7583F6F81D51DD4B0079EB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7583F6FC1D51DD4B0079EB5E /* PBXTargetDependency */,
+			);
+			name = QQ3DMapSampleTests;
+			productName = QQ3DMapSampleTests;
+			productReference = 7583F6FA1D51DD4B0079EB5E /* QQ3DMapSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7583F7041D51DD4B0079EB5E /* QQ3DMapSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7583F7141D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSampleUITests" */;
+			buildPhases = (
+				7583F7011D51DD4B0079EB5E /* Sources */,
+				7583F7021D51DD4B0079EB5E /* Frameworks */,
+				7583F7031D51DD4B0079EB5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7583F7071D51DD4B0079EB5E /* PBXTargetDependency */,
+			);
+			name = QQ3DMapSampleUITests;
+			productName = QQ3DMapSampleUITests;
+			productReference = 7583F7051D51DD4B0079EB5E /* QQ3DMapSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7583F6D91D51DD4B0079EB5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.tencent.prince;
+				TargetAttributes = {
+					7583F6E01D51DD4B0079EB5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LS7LNP2HQS;
+					};
+					7583F6F91D51DD4B0079EB5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LS7LNP2HQS;
+						TestTargetID = 7583F6E01D51DD4B0079EB5E;
+					};
+					7583F7041D51DD4B0079EB5E = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LS7LNP2HQS;
+						TestTargetID = 7583F6E01D51DD4B0079EB5E;
+					};
+				};
+			};
+			buildConfigurationList = 7583F6DC1D51DD4B0079EB5E /* Build configuration list for PBXProject "QQ3DMapSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7583F6D81D51DD4B0079EB5E;
+			productRefGroup = 7583F6E21D51DD4B0079EB5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7583F6E01D51DD4B0079EB5E /* QQ3DMapSample */,
+				7583F6F91D51DD4B0079EB5E /* QQ3DMapSampleTests */,
+				7583F7041D51DD4B0079EB5E /* QQ3DMapSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7583F6DF1D51DD4B0079EB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7583F6F41D51DD4B0079EB5E /* LaunchScreen.storyboard in Resources */,
+				7583F6F11D51DD4B0079EB5E /* Assets.xcassets in Resources */,
+				7583F6EF1D51DD4B0079EB5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F6F81D51DD4B0079EB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F7031D51DD4B0079EB5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7583F6DD1D51DD4B0079EB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7583F6EC1D51DD4B0079EB5E /* ViewController.m in Sources */,
+				7583F6E91D51DD4B0079EB5E /* AppDelegate.m in Sources */,
+				7583F6E61D51DD4B0079EB5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F6F61D51DD4B0079EB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7583F6FF1D51DD4B0079EB5E /* QQ3DMapSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583F7011D51DD4B0079EB5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7583F70A1D51DD4B0079EB5E /* QQ3DMapSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7583F6FC1D51DD4B0079EB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7583F6E01D51DD4B0079EB5E /* QQ3DMapSample */;
+			targetProxy = 7583F6FB1D51DD4B0079EB5E /* PBXContainerItemProxy */;
+		};
+		7583F7071D51DD4B0079EB5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7583F6E01D51DD4B0079EB5E /* QQ3DMapSample */;
+			targetProxy = 7583F7061D51DD4B0079EB5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7583F6ED1D51DD4B0079EB5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7583F6EE1D51DD4B0079EB5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7583F6F21D51DD4B0079EB5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7583F6F31D51DD4B0079EB5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7583F70C1D51DD4B0079EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7583F70D1D51DD4B0079EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7583F70F1D51DD4B0079EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQ3DMapSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7583F7101D51DD4B0079EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQ3DMapSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7583F7121D51DD4B0079EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQ3DMapSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ3DMapSample.app/QQ3DMapSample";
+			};
+			name = Debug;
+		};
+		7583F7131D51DD4B0079EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQ3DMapSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQ3DMapSample.app/QQ3DMapSample";
+			};
+			name = Release;
+		};
+		7583F7151D51DD4B0079EB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQ3DMapSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQ3DMapSample;
+			};
+			name = Debug;
+		};
+		7583F7161D51DD4B0079EB5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQ3DMapSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.QQ3DMapSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQ3DMapSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7583F6DC1D51DD4B0079EB5E /* Build configuration list for PBXProject "QQ3DMapSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7583F70C1D51DD4B0079EB5E /* Debug */,
+				7583F70D1D51DD4B0079EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7583F70E1D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7583F70F1D51DD4B0079EB5E /* Debug */,
+				7583F7101D51DD4B0079EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7583F7111D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7583F7121D51DD4B0079EB5E /* Debug */,
+				7583F7131D51DD4B0079EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7583F7141D51DD4B0079EB5E /* Build configuration list for PBXNativeTarget "QQ3DMapSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7583F7151D51DD4B0079EB5E /* Debug */,
+				7583F7161D51DD4B0079EB5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7583F6D91D51DD4B0079EB5E /* Project object */;
+}
