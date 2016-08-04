@@ -1,15 +1,20 @@
 //
 //  AppDelegate.m
-//  QQ3DMapSample
+//  QQMapSample
 //
 //  Created by iprincewang on 16/8/3.
 //  Copyright © 2016年 com.tencent.prince. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "QAppKeyCheck.h"
+#import "MapSDKDemoViewController.h"
 
-@interface AppDelegate ()
+#define MAPKEY @"RGBBZ-CVW3U-GUIVT-BP2GY-IYTN3-4CB74"
 
+@interface AppDelegate () <QAppKeyCheckDelegate>
+@property(nonatomic,strong)QAppKeyCheck *keyCheck;
 @end
 
 @implementation AppDelegate
@@ -17,6 +22,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //这里加载第一个页面；
+    MapSDKDemoViewController *viewController = [[MapSDKDemoViewController alloc] init];
+    UINavigationController *navC = [[UINavigationController alloc]initWithRootViewController:viewController];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navC;
+    [self.window makeKeyAndVisible];
+    
+    self.keyCheck = [[QAppKeyCheck alloc] init];
+    [self.keyCheck start:@"RGBBZ-CVW3U-GUIVT-BP2GY-IYTN3-4CB74" withDelegate:self];
+    
     return YES;
 }
 
@@ -42,4 +60,12 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma  mark -- QAppKeyCheckDelegate
+// 这是QAppKeyCheckDelegate提供的key验证回调，用于检查传入的key值是否合法
+-(void) notifyAppKeyCheckResult:(QErrorCode)errCode
+{
+    if (errCode == QErrorNone) {
+        NSLog(@"验证成功");
+    }
+}
 @end
